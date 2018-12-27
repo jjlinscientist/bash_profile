@@ -18,3 +18,6 @@ alias htop='htop -s PERCENT_CPU'
 
 # Aliases for ping
 alias ping8="ping -c 5 8.8.8.8"
+
+# Alias for nvim config
+alias nvim='nvim -u ~/.config/nvim/init.vim'
