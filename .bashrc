@@ -141,7 +141,7 @@ export VIMINIT='source $MYVIMRC'
 export PATH=$PATH:$HOME/exec/symlinks
 
 # run archey3 script
-#archey3 -c cyan
+archey3 -c cyan
 
 # python-virtualenvwrapper setup
 #export WORKON_HOME=~/.virtualenvs
