@@ -136,9 +136,9 @@ man() {
 # export other variables
 export RANGER_LOAD_DEFAULT_RC=FALSE
 export EDITOR=nvim
-export MYVIMRC=$HOME/.config/nvim/init.vim
+export MYVIMRC='$HOME/.config/nvim/init.vim'
 export VIMINIT='source $MYVIMRC'
-export PATH=$PATH:$HOME/exec/symlinks
+export PATH=$PATH:$HOME/exec/
 
 # run archey3 script
 archey3 -c cyan
