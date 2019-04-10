@@ -22,3 +22,6 @@ alias ping8="ping -c 5 8.8.8.8"
 # Alias for nvim config
 alias vim='vim -u ~/.vim/vimrc'
 # alias nvim='nvim -u ~/.config/nvim/init.vim'
+
+# Alias for ssh-agent bash
+alias sab='ssh-agent bash'
