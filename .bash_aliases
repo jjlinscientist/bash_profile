@@ -25,3 +25,6 @@ alias vim='vim -u ~/.vim/vimrc'
 
 # Alias for ssh-agent bash
 alias sab='ssh-agent bash'
+
+# Alias for docker
+alias docker='sudo docker'
