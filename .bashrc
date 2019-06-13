@@ -140,6 +140,7 @@ export EDITOR=nvim
 export MYVIMRC='$HOME/.config/nvim/init.vim'
 export VIMINIT='source $MYVIMRC'
 export PATH=$PATH:$HOME/exec/
+export PATH=$PATH:$HOME/.local/bin
 
 # run archey3 script
 archey3 -c cyan
