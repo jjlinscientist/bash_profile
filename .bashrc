@@ -57,8 +57,12 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
+  if [ $USER = "root" ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+  else 
     # PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
     PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[0;39m\]:\[\033[01;36m\]\W\[\033[0;39m\]\$ '
+  fi
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -143,7 +147,11 @@ export PATH=$PATH:$HOME/exec/
 export PATH=$PATH:$HOME/.local/bin
 
 # run archey3 script
-archey3 -c cyan
+if [ "$USER" = "root" ]; then
+  archey3 -c red
+else
+  archey3 -c blue
+fi
 
 # python-virtualenvwrapper setup
 #export WORKON_HOME=~/.virtualenvs
