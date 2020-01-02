@@ -150,7 +150,7 @@ export PATH=$PATH:$HOME/.local/bin
 if [ "$USER" = "root" ]; then
   archey3 -c red
 else
-  archey3 -c blue
+  archey3 -c cyan
 fi
 
 # python-virtualenvwrapper setup
