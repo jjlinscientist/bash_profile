@@ -7,8 +7,8 @@ alias lla='ls -all'
 alias l1='ls -1'
 
 # Aliases for 'pip'
-alias pip='sudo pip'
-alias pip-review='sudo pip-review --interactive'
+# alias pip='sudo pip'
+# alias pip-review='sudo pip-review --interactive'
 
 # Aliases for 'htop'
 alias htop='htop -s PERCENT_CPU'
@@ -20,7 +20,7 @@ alias htop='htop -s PERCENT_CPU'
 alias ping8="ping -c 5 8.8.8.8"
 
 # Alias for nvim config
-alias vim='vim -u ~/.vim/vimrc'
+# alias vim='vim -u ~/.vim/vimrc'
 # alias nvim='nvim -u ~/.config/nvim/init.vim'
 
 # Alias for ssh-agent bash
@@ -30,4 +30,4 @@ alias sab='ssh-agent bash'
 alias docker='sudo docker'
 
 # Alias for pacman
-alias pacman='sudo pacman'
+# alias pacman='sudo pacman'
